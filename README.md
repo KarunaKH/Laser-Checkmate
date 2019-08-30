@@ -17,13 +17,13 @@ POINTS: You get 1 point for each laser's beam. 2 points for the laser itself.
 VALID MOVE: A player places the laser in the block that contains no laser emitter, wall or tower and that is not covered by any laser(from either player).
 
 INPUT:
-Line 1: Size of the square grid(N).
-Line 2 to end: an N* N grid with 0s, 1s, 2s and 3s.
-0 - Empty Block. 
-1 - Player 1's laser emitter.
-2 - Player 2's laser emitter.
-3 - Towers
--1 - To represent the range of the laser emitters.
+1. Line 1: Size of the square grid(N).
+2. Line 2 to end: an N* N grid with -1s to 3s.
+- 0 = Empty Block. 
+- 1 = Player 1's laser emitter.
+- 2 = Player 2's laser emitter.
+- 3 = Towers.
+- -1 = To represent the range of the laser emitters.
 
 OUTPUT: A single move, the position where you will place your laser, in (x,y) co-ordinates format.
 
